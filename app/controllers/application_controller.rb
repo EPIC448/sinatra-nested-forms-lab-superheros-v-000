@@ -11,8 +11,7 @@ class App < Sinatra::Base
 
  post '/teams' do
   @team = Team.new(params[:team])
-
-     binding.pry
+  @hero = Hero.new(params[:hero])
 
     erb :teams
     # calls the file teams
