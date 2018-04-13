@@ -19,6 +19,7 @@ class App < Sinatra::Base
   binding.pry
 end
     @heros= Hero.all
+    binding.pry
     erb :teams
 
     # calls the file teams
