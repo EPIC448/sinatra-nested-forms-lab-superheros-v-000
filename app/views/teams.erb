@@ -6,7 +6,11 @@
 
 <h1>Display each Super_Hero Information</h1>
 
+<%@heros.each do |hero|%>
+
+
 <h1><%=@hero.name%></h1>
   <br>
   <h3>Hero Power:<%=@hero.power%></h3>
   <h3><%=@hero.bio%></h3>
+<%end%>
