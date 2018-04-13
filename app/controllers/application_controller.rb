@@ -17,7 +17,6 @@ class App < Sinatra::Base
     #we collect the name, power,bio into
   @hero = Hero.new(info)
 end
-#you can make
     @hero = Hero.all
 binding.pry
     erb :teams
