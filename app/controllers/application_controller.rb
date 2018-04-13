@@ -13,6 +13,8 @@ class App < Sinatra::Base
   @team = Team.new(params[:team])
 
   params[:hero].each do |info|
+    #we create hero inside
+    #we collect the name, power,bio into
   @hero = Hero.new(info)
 
   binding.pry
