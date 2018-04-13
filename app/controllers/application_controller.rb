@@ -18,10 +18,8 @@ class App < Sinatra::Base
   @hero = Hero.new(info)
 end
     @heros= Hero.all
+    #
     erb :teams
-
-    # calls the file teams
-
  end
 
 end
