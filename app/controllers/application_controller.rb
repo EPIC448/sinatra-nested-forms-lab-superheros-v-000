@@ -20,7 +20,6 @@ end
     @hero = Hero.all
     binding.pry
     erb :'teams'
-    binding.pry
 
     # calls the file teams
 
