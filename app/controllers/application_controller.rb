@@ -19,7 +19,9 @@ class App < Sinatra::Base
 end
     @heros= Hero.all
 # we have the super hero and there features here..
-# we go into teams.rb and iterate over it on line 9
+# we go into teams.rb and iterate over it on line 9.
+# to get each hero informations as needed
+
     erb :teams
  end
 
