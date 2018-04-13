@@ -14,8 +14,6 @@ class App < Sinatra::Base
 
      binding.pry
 
-    end
-
     erb :teams
     # calls the file teams
 
