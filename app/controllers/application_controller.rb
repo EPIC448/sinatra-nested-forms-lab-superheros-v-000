@@ -11,6 +11,7 @@ class App < Sinatra::Base
 
  post '/teams' do
   binding.pry
+  @team =
     erb :teams
     # calls the file teams
  end
