@@ -14,9 +14,11 @@ class App < Sinatra::Base
    params[:team][:name].each do |details|
     Team.new(details)
   binding.pry
+end
 
     erb :teams
     # calls the file teams
+
  end
 
 end
